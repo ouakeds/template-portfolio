@@ -38,7 +38,7 @@ const ContactSection = () => {
             <textarea rows={4} placeholder='...' className='mt-4 py-2 md:py-4 px-6 w-full bg-zinc-200 text-medium text-l md:text-2xl rounded-md' />
           </div>
 
-          <button className={`text-l md:text-2xl bg-primary cursor-pointer px-24 py-4 md:py-4 uppercase mt-12 md:mt-24 rounded-md font-bold text-white w-full`}>
+          <button className="text-l md:text-2xl bg-primary cursor-pointer px-24 py-4 md:py-4 uppercase mt-12 md:mt-24 rounded-md font-bold text-white w-full shadow-xl">
             <a href='#project'>Envoyer</a>
           </button>
         </div>

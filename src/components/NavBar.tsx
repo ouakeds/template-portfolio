@@ -25,9 +25,18 @@ export default function NavBar() {
         <div className='flex  gap-12 justify-center items-center hidden md:flex'>
           {
             links.map(({label, href}, key) => {
-              return <a key={key} href={href} className={`text-l md:text-xl font-bold uppercase text-zinc-700 hover:text-primary cursor-pointer`}>{label}</a>
+              return <a key={key} href={href} className={`text-l md:text-xl font-bold uppercase text-dark hover:text-primary cursor-pointer`}>{label}</a>
             })
           }
+          <a href='/documents/cv.pdf' target='_blank'>
+            <button className={`text-l md:text-xl font-bold uppercase text-dark hover:text-primary cursor-pointer outline rounded-md px-4 py-2 flex gap-4`}>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
+              </svg>
+              CV
+            </button>
+          </a>
+
         </div>
         <button className='block md:hidden' onClick={toggleBurgerMenu}>
 
