@@ -27,10 +27,11 @@ const HomeSection = () => {
           <h1 className='text-xl md:text-4xl text-medium font-regular mt-12 text-center tracking-wide'>
             {data.tagLine}
           </h1>
-
-          <button className={`text-l md:text-2xl bg-primary cursor-pointer px-24 py-4 md:py-6 uppercase mt-24 rounded-md font-bold text-white`}>
-            <a href='#project'>Projets</a>
-          </button>
+          <a href='#project'>
+            <button className={`text-l md:text-2xl bg-primary cursor-pointer px-24 py-4 md:py-6 uppercase mt-24 rounded-md font-bold text-white`}>
+              Projets
+            </button>
+          </a>
         </div>
       </div> 
     </div>
