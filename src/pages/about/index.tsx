@@ -9,11 +9,11 @@ const AboutSection = () => {
         title="À propos"
         description={data.aboutSentence}
       />
-      <div className='h-full w-full flex flex-col md:flex-row justify-center items-center md:py-20'>
+      <div className='h-full w-full flex flex-col md:flex-row md:py-20'>
         
-        <div className='flex flex-col mt-10 w-full max-w-4xl md:h-[50vh] md:pr-20'>
+        <div className='flex flex-col mt-10 w-full max-w-4xl md:pr-20'>
           <h2 className='text-2xl md:text-4xl font-bold text-left text-dark'>À propos</h2>
-          <p className='text-sm md:text-2xl mt-4 md:mt-12 text-left text-medium tracking-wide'>
+          <p className='text-sm md:text-xl mt-4 md:mt-12 text-left text-medium tracking-wide'>
             {data.story}
           </p>
           <a href='#contact'>
@@ -23,7 +23,7 @@ const AboutSection = () => {
           </a>
         </div>
 
-        <div className='flex flex-col py-10 w-full max-w-4xl md:h-[50vh]'>
+        <div className='flex flex-col py-10 w-full max-w-4xl'>
           <h2 className='text-2xl md:text-4xl font-bold text-left text-dark'>Compétences</h2>
           <div className='mt-12 flex flex-wrap'>
             {

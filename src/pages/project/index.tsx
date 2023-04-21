@@ -14,7 +14,7 @@ const ProjectSection = () => {
       {
         data.projects.map(({title, description, image, link}, key) => {
           return (
-            <div key={key} className='h-full w-full flex flex-col md:flex-row justify-center items-center py-20'>
+            <div key={key} className='h-full w-full flex flex-col md:flex-row justify-center items-center py-20 md:px-20'>
               <div className='md:max-w-4xl w-full'>
                 <img src={image} className='w-full h-full'/>
               </div>

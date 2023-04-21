@@ -21,7 +21,7 @@ const HomeSection = () => {
         </div>  
 
         <div className='w-full max-w-6xl flex flex-col justify-center items-center px-12'>
-          <h1 className='text-4xl md:text-7xl text-dark font-extrabold text-center tracking-wide uppercase'>
+          <h1 className='text-4xl md:text-6xl text-dark font-extrabold text-center tracking-wide uppercase'>
             Bonjour, Je suis {data.user}
           </h1>
           <h1 className='text-xl md:text-4xl text-medium font-regular mt-12 text-center tracking-wide'>
